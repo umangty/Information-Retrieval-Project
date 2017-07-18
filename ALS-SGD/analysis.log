@@ -1,0 +1,154 @@
+Finding best hyperparameters for ALS.
+Mon Apr 24 15:47:47 2017
+Using Factor: 5
+Using Regularization: 0.01
+New optimal hyperparameters found:
+model        <sgd_als.ExplicitMF instance at 0x7f606d48af80>
+n_factors                                                  5
+n_iter                                                     5
+reg                                                     0.01
+test_mse                                              8.8192
+train_mse                                            6.12228
+dtype: object
+Using Regularization: 0.1
+Using Regularization: 1.0
+Using Regularization: 10.0
+Using Regularization: 100.0
+-------------------------------
+Mon Apr 24 15:53:48 2017
+Using Factor: 10
+Using Regularization: 0.01
+New optimal hyperparameters found:
+model        <sgd_als.ExplicitMF instance at 0x7f606d494098>
+n_factors                                                 10
+n_iter                                                   100
+reg                                                     0.01
+test_mse                                             8.20214
+train_mse                                            5.39267
+dtype: object
+Using Regularization: 0.1
+Using Regularization: 1.0
+Using Regularization: 10.0
+Using Regularization: 100.0
+-------------------------------
+Mon Apr 24 15:59:53 2017
+Using Factor: 20
+Using Regularization: 0.01
+New optimal hyperparameters found:
+model        <sgd_als.ExplicitMF instance at 0x7f606d494200>
+n_factors                                                 20
+n_iter                                                   100
+reg                                                     0.01
+test_mse                                             8.06318
+train_mse                                            4.75087
+dtype: object
+Using Regularization: 0.1
+Using Regularization: 1.0
+Using Regularization: 10.0
+Using Regularization: 100.0
+-------------------------------
+Mon Apr 24 16:06:50 2017
+Using Factor: 40
+Using Regularization: 0.01
+Using Regularization: 0.1
+Using Regularization: 1.0
+Using Regularization: 10.0
+Using Regularization: 100.0
+-------------------------------
+Mon Apr 24 16:15:04 2017
+Using Factor: 80
+Using Regularization: 0.01
+Using Regularization: 0.1
+Using Regularization: 1.0
+Using Regularization: 10.0
+Using Regularization: 100.0
+-------------------------------
+analysis.py:43: RuntimeWarning: invalid value encountered in divide
+  return sim / norms / norms.T
+####################################
+Finding best hyperparameters for SGD.
+Monday 24 April 2017 05:15:27 PM IST
+Using Factor: 5
+Using Regularization: 0.001
+New optimal hyperparameters
+model        <sgd_als.ExplicitMF instance at 0x7f606d494290>
+n_factors                                                  5
+n_iter                                                   200
+reg                                                    0.001
+test_mse                                            0.938337
+train_mse                                           0.659733
+dtype: object
+Using Regularization: 0.01
+Using Regularization: 0.1
+New optimal hyperparameters
+model        <sgd_als.ExplicitMF instance at 0x7f606cc82ef0>
+n_factors                                                  5
+n_iter                                                   200
+reg                                                      0.1
+test_mse                                            0.919535
+train_mse                                           0.769429
+dtype: object
+Using Regularization: 1.0
+-------------------------------
+Monday 24 April 2017 06:07:57 PM IST
+Using Factor: 10
+Using Regularization: 0.001
+Using Regularization: 0.01
+Using Regularization: 0.1
+New optimal hyperparameters
+model        <sgd_als.ExplicitMF instance at 0x7f606cc98cb0>
+n_factors                                                 10
+n_iter                                                   200
+reg                                                      0.1
+test_mse                                            0.919494
+train_mse                                           0.773731
+dtype: object
+Using Regularization: 1.0
+-------------------------------
+Monday 24 April 2017 07:01:46 PM IST
+Using Factor: 20
+Using Regularization: 0.001
+Using Regularization: 0.01
+New optimal hyperparameters
+model        <sgd_als.ExplicitMF instance at 0x7f606ccb24d0>
+n_factors                                                 20
+n_iter                                                   200
+reg                                                     0.01
+test_mse                                            0.912005
+train_mse                                           0.501181
+dtype: object
+Using Regularization: 0.1
+Using Regularization: 1.0
+-------------------------------
+Monday 24 April 2017 07:53:52 PM IST
+Using Factor: 40
+Using Regularization: 0.001
+Using Regularization: 0.01
+New optimal hyperparameters
+model        <sgd_als.ExplicitMF instance at 0x7f606cc98bd8>
+      0.451587dtype: object
+Using Regularization: 0.1
+Using Regularization: 1.0
+-------------------------------
+Monday 24 April 2017 08:46:20 PM IST
+Using Factor: 80
+Using Regularization: 0.001
+New optimal hyperparameters
+model        <sgd_als.ExplicitMF instance at 0x7f606f819950>
+n_factors                                                 80
+n_iter                                                   200
+reg                                                    0.001
+test_mse                                              0.8919
+train_mse                                           0.408728
+dtype: object
+Using Regularization: 0.01
+New optimal hyperparameters
+model        <sgd_als.ExplicitMF instance at 0x7f606ccb24d0>
+n_factors                                                 80
+n_iter                                                   200
+reg                                                     0.01
+test_mse                                            0.884458
+train_mse                                           0.473338
+dtype: object
+Using Regularization: 0.1
+Using Regularization: 1.0

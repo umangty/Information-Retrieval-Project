@@ -1,1 +1,5 @@
-# Information-Retrieval-Project
+- Dependencies - python 2.7, numpy, pandas
+- Implementation of collaborative filtering - collaborative_filtering.py. Run the script to see the output.
+- Implementation of content filtering - content_filtering.py. Run the script to see the output.
+- Implementation of ALS ans SGD - inside the folder ALS-SGD. To run the script, run analysis.py and then results.py. ALS-SGD/sgd_als.py contains the neccessary class of matrix factorization which has the implementation. analysis.py finds the best hyperparameters for the models and results.py recommends movies using output of analysis.py
+- Download dataset - https://grouplens.org/datasets/movielens/
